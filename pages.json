@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/talk/talk",
+			"style": {
+				"navigationBarTitleText": "话题"
+			}
+		},
+		{
+			"path": "pages/add/add",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				// "navigationBarTitleText": "亦安"
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#3399FF",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/homed.png"
+			}, {
+				"pagePath": "pages/talk/talk",
+				"text": "话题",
+				"iconPath": "static/tabbar/talk.png",
+				"selectedIconPath": "static/tabbar/talked.png"
+			}, {
+				"pagePath": "pages/add/add",
+				"text": "",
+				"iconPath": "static/tabbar/add.png",
+				"selectedIconPath": "static/tabbar/add.png"
+			}, {
+				"pagePath": "pages/news/news",
+				"text": "消息",
+				"iconPath": "static/tabbar/news.png",
+				"selectedIconPath": "static/tabbar/newsed.png"
+			}, {
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/my-active.png",
+				"selectedIconPath": "static/tabbar/my-actived.png"
+			}
+
+		]
+	}
+}
