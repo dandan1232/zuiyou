@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view style="height: 2000rpx;">
 		<!-- 自定义状态栏 -->
 		<view class="status_title"  v-show="scrollTop > 60">
 			<text class="status_center text-white mt-1">亦安</text>
@@ -144,6 +144,7 @@
 <view 
 style="margin-top: 10rpx;
 margin-left: 10rpx;
+margin-bottom: 20rpx;
 float: left;
 background-color: #FFFFFF;
 border-radius: 12rpx;">
@@ -251,12 +252,14 @@ border-radius: 12rpx;">
 		
 		<!-- 一起成长 -->
 		<view style="margin-top: 200rpx;
+		margin-bottom: 20rpx;
 		background-color: #FFFFFF;
 		width: 95%;
 		margin-left: 10rpx;
 		border-radius: 10rpx;">
 		<view style="font-size: 34rpx;
 		margin-top: 10rpx;
+		margin-bottom: 20rpx;
 		border-bottom: 1px #007BFF solid;
 		font-style: italic;
 		font-weight: bold;">一起成长
@@ -265,6 +268,8 @@ border-radius: 12rpx;">
 		<view
 		style="
 		background-color: #FFFFFF;
+		margin-bottom: 20rpx;
+		margin-top: 20rpx;
 		margin-left: 0rpx;
 		float: left;
 		background-color: #FFFFFF;
@@ -350,6 +355,311 @@ border-radius: 12rpx;">
 			</view>
 			
 			</view>
+			
+			
+			<view style="margin-top: 40rpx; ">
+			</view>
+			
+			<!-- 小正推荐 -->
+			<view style="margin-top: 20rpx;
+			margin-bottom: 20rpx;">
+			<view style="margin-top: 200rpx;
+			background-color: #FFFFFF;
+			width: 95%;
+			margin-left: 10rpx;
+			border-radius: 10rpx;">
+			<view style="font-size: 34rpx;
+			margin-top: 30rpx;
+			border-bottom: 1px #007BFF solid;
+			font-style: italic;
+			font-weight: bold;">小正推荐
+			</view>
+
+			<view
+			style="
+			background-color: #FFFFFF;
+			margin-left: 0rpx;
+			float: left;
+			background-color: #FFFFFF;
+			border-radius: 12rpx;">
+				<view style="margin-top: 40rpx;
+				margin-left: 25rpx;
+				margin-right: 10rpx;
+				background-color: #FFFFFF;
+				font-size: 40rpx;"
+				>
+				<i class="iconfont icon-yueliang"
+				style="font-size:60rpx;
+				color: #5555ff;
+				margin-top: -20rpx;
+				font-size: 60rpx;
+				float: left;">
+				</i>
+				</view>
+				
+				<view style="margin-top: 40rpx;
+				margin-left: 10rpx;
+				margin-right: 10rpx;
+				background-color: #FFFFFF;
+				font-size: 40rpx;"
+				>
+				<i class="iconfont icon-lishi"
+				style="font-size:60rpx;
+				color: #ffff00;
+				margin-top: -20rpx;
+				margin-left: 160rpx;
+				float: left;">
+				</i>
+				</view>
+				
+				<view style="margin-top: 40rpx;
+				margin-left: 10rpx;
+				margin-right: 10rpx;
+				background-color: #FFFFFF;
+				font-size: 40rpx;"
+				>
+				<i class="iconfont icon-shipin"
+				style="font-size:60rpx;
+				margin-left: 170rpx;
+				margin-top: -20rpx;
+				color: #0000ff;
+				float: left;">
+				</i>
+				</view>
+				
+				<view style="margin-top: 40rpx;
+				margin-left: 10rpx;
+				margin-right: 10rpx;
+				background-color: #FFFFFF;
+				font-size: 40rpx;"
+				>
+				<i class="iconfont icon-san"
+				style="font-size:60rpx;
+				color: #fc7945;
+				margin-left: 630rpx;
+				margin-top: -110rpx;
+				float: left;">
+				</i>
+				</view>
+				
+				<view style="margin-top:100rpx;
+				margin-left: 5rpx;">
+					夜间模式
+				</view>
+				
+				<view style="margin-top: -60rpx;
+				margin-left: 216rpx;">
+					浏览历史
+				</view>
+				
+				<view style="margin-top: -90rpx;
+				margin-left: 440rpx;">
+					视频游戏
+				</view>
+				
+				<view style="margin-top: -90rpx;
+				margin-left: 570rpx;">
+					青少年模式
+				</view>
+				
+			
+				
+				</view>
+				</view>
+				</view>
+				
+				
+				<view style="margin-top: 40rpx; ">
+				</view>
+				
+				<!-- 更多服务 -->
+				<view style="margin-top: 20rpx;
+				margin-bottom: 20rpx;">
+				<view style="margin-top: 200rpx;
+				background-color: #FFFFFF;
+				width: 95%;
+				margin-left: 10rpx;
+				border-radius: 10rpx;">
+				<view style="font-size: 34rpx;
+				margin-top: 30rpx;
+				border-bottom: 1px #007BFF solid;
+				font-style: italic;
+				font-weight: bold;">更多服务
+				</view>
+				
+				<view
+				style="
+				background-color: #FFFFFF;
+				margin-left: 0rpx;
+				float: left;
+				background-color: #FFFFFF;
+				border-radius: 12rpx;">
+					<view style="margin-top: 40rpx;
+					margin-left: 25rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-hanhan-01-01"
+					style="font-size:60rpx;
+					color: #aa00ff;
+					margin-top: -20rpx;
+					font-size: 60rpx;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top: 40rpx;
+					margin-left: 10rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-zhangyu"
+					style="font-size:60rpx;
+					color: #0000ff;
+					margin-top: -20rpx;
+					margin-left: 160rpx;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top: 40rpx;
+					margin-left: 10rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-faxian_jiatingjiaoyu"
+					style="font-size:60rpx;
+					margin-left: 170rpx;
+					margin-top: -20rpx;
+					color: #ffaa00;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top: 40rpx;
+					margin-left: 10rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-ziyuan131"
+					style="font-size:60rpx;
+					color: #55ffff;
+					margin-left: 630rpx;
+					margin-top: -110rpx;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top:100rpx;
+					margin-left: 5rpx;">
+						简悦游戏
+					</view>
+					
+					<view style="margin-top: -60rpx;
+					margin-left: 216rpx;">
+						旅游专区
+					</view>
+					
+					<view style="margin-top: -90rpx;
+					margin-left: 440rpx;">
+						审核专区
+					</view>
+					
+					<view style="margin-top: -90rpx;
+					margin-left: 600rpx;">
+						简悦家庭
+					</view>
+					
+					
+					<view style="margin-top: 40rpx;
+					margin-left: 25rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-doctorial-fill"
+					style="font-size:60rpx;
+					color: #5555ff;
+					margin-top: -20rpx;
+					font-size: 60rpx;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top: 40rpx;
+					margin-left: 10rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-wenhao"
+					style="font-size:60rpx;
+					color: #ffff00;
+					margin-top: -20rpx;
+					margin-left: 160rpx;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top: 40rpx;
+					margin-left: 10rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-xiazai"
+					style="font-size:60rpx;
+					margin-left: 170rpx;
+					margin-top: -20rpx;
+					color: #0000ff;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top: 40rpx;
+					margin-left: 10rpx;
+					margin-right: 10rpx;
+					background-color: #FFFFFF;
+					font-size: 40rpx;"
+					>
+					<i class="iconfont icon-zhidingmianxing"
+					style="font-size:60rpx;
+					color: #fc7945;
+					margin-left: 630rpx;
+					margin-top: -110rpx;
+					float: left;">
+					</i>
+					</view>
+					
+					<view style="margin-top:100rpx;
+					margin-left: 5rpx;">
+						又有态度
+					</view>
+					
+					<view style="margin-top: -60rpx;
+					margin-left: 216rpx;">
+						帮助反馈
+					</view>
+					
+					<view style="margin-top: -90rpx;
+					margin-left: 440rpx;">
+						我的下载
+					</view>
+					
+					<view style="margin-top: -90rpx;
+					margin-left: 600rpx;">
+						我的收藏
+					</view>
+					</view>
+					
+					</view>
+					</view>
+					</view>
+			
 		
 		</view>
 

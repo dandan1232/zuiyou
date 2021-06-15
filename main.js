@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App'
 import store from './store/index.js'
 
+import util from '@/common/util.js'
+
+
+
 //挂载vuex
 Vue.prototype.$store = store
 
@@ -22,6 +26,7 @@ import $H from './common/request.js';
 Vue.prototype.$H = $H
 
 App.mpType = 'app'
+
 
 const app = new Vue({
 	store,
