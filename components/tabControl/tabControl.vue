@@ -43,7 +43,7 @@
 			},
 			lineWidth:{
 				type:Number,
-				default: 200
+				default: 100
 			},
 			itemSize:{
 				type:Number,
@@ -171,30 +171,32 @@
 
 <style lang="less" scoped>
 	.fxied{
+		margin-top: 80px;
 		position: fixed;
 		z-index: 2;
+		
 	}
 	.tabList{
 		padding-top: 24rpx;
-		// padding-left: 0rpx;
+		padding-left: 24rpx;
 		padding-bottom: 8rpx;
 		white-space: nowrap;
 		text-align: center;
 		.tabItem{
-			margin-right: 180rpx;
+			margin-right: 60rpx;
 			display: inline-block;
 			position: relative;
 			text{
-				// font-size: 30rpx;
+			    font-size: 36rpx;
 				line-height: 44rpx;
 				color: #666;
 				transition: all 0.3s ease 0s;
 			}
 			.activeLine{
-				// width: 48rpx;
-				height: 5rpx;
+				width: 48rpx;
+				height: 8rpx;
 				border-radius: 4rpx;
-				background-color: #F57341;
+				background-color: #f496b6;
 				margin-top: 8rpx;
 				margin-left: 50%;
 				transform: translateX(-50%);
@@ -210,9 +212,9 @@
 		}
 		.thisOpenSelect{
 			text{
-				color: #333;
+				color: #f496b6;
 				font-weight:600;
-				// font-size: 32rpx;
+				font-size: 40rpx;
 			}
 			.activeLine{
 				opacity: 1;

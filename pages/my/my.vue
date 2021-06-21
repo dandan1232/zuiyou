@@ -598,7 +598,7 @@ border-radius: 12rpx;">
 					>
 					<i class="iconfont icon-wenhao"
 					style="font-size:60rpx;
-					color: #ffff00;
+					color: #00aa00;
 					margin-top: -20rpx;
 					margin-left: 160rpx;
 					float: left;">
