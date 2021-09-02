@@ -695,7 +695,6 @@ export default {
 	margin-top: -99rpx;
 	float: left;
 }
-
 .avatar {
 	border-radius: 50%;
 	margin-left: 20rpx;
@@ -705,7 +704,6 @@ export default {
 	background-color: #ffffff;
 	float: left;
 }
-
 .name {
 	color: #70554d;
 	margin-top: 40rpx;
@@ -734,12 +732,10 @@ export default {
 	text-align: center;
 	line-height: 40px;
 }
-
 .sImg{
 	width: 100%;
 	height: 100rpx;
 }
-
 	.swiper {
 		height: 155rpx;
 		margin-bottom: 15px;
